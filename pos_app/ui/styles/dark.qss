@@ -1,0 +1,7 @@
+/* Dark theme */
+QWidget { color: #e6eef6; background: #0f141b; font-family: 'Segoe UI', 'Inter', sans-serif; }
+QPushButton { background: qlineargradient(x1:0,y1:0,x2:1,y2:1, stop:0 #5b8def, stop:1 #7e5bef); color: white; border: none; padding: 8px 14px; border-radius: 8px; }
+QPushButton:hover { filter: brightness(1.15); }
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox, QDateEdit { background: #17202a; border: 1px solid #283241; border-radius: 8px; padding: 6px 8px; color: #e6eef6; }
+QTableView { background: #121821; border: 1px solid #283241; gridline-color: #1c2533; }
+QHeaderView::section { background: #1a2230; border: none; padding: 6px; }
